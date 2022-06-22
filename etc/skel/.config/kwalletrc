@@ -1,0 +1,10 @@
+[Wallet]
+Close When Idle=false
+Close on Screensaver=false
+Enabled=false
+Idle Timeout=60
+Launch Manager=false
+Leave Manager Open=true
+Leave Open=true
+Prompt on Open=false
+Use One Wallet=true
