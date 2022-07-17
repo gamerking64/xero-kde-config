@@ -13,10 +13,6 @@ Id_3=6f70ab1a-627e-4c80-bf04-b9a6f03afbc7
 Number=3
 Rows=1
 
-[Effect-DimInactive]
-DimKeepAbove=true
-Strength=12
-
 [Effect-PresentWindows]
 BorderActivateAll=9
 
@@ -27,7 +23,7 @@ WobblynessLevel=1
 
 [Effect-blur]
 BlurStrength=6
-NoiseStrength=0
+NoiseStrength=2
 
 [Effect-diminactive]
 DimKeepAbove=true
@@ -42,7 +38,7 @@ Stiffness=10
 WobblynessLevel=1
 
 [ModifierOnlyShortcuts]
-Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
+Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
 [Plugins]
 alwaysopenonfocusedscreenEnabled=true
@@ -59,6 +55,7 @@ kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_frozenappEnabled=false
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_morphingpopupsEnabled=false
+kwin4_effect_rubberband_maximizeEnabled=true
 kwin4_effect_sessionquitEnabled=false
 macsimizeEnabled=false
 minimizeallEnabled=true
@@ -83,3 +80,6 @@ patterns=dolphin\nyakuake\nurxvt\nkeepassxc\nkonsole\nthunar
 [TabBox]
 BorderActivate=9
 LayoutName=coverswitch
+
+[Windows]
+Placement=Centered
