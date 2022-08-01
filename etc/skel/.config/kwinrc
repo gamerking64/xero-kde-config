@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup
 
 [Compositing]
 GLCore=true
@@ -8,9 +8,7 @@ OpenGLIsUnsafe=false
 
 [Desktops]
 Id_1=290014f1-ab74-4eff-ab3d-0f5e50435119
-Id_2=f8b22f9b-d6ce-481c-8025-c5e364f18cff
-Id_3=6f70ab1a-627e-4c80-bf04-b9a6f03afbc7
-Number=3
+Number=1
 Rows=1
 
 [Effect-PresentWindows]
@@ -25,15 +23,13 @@ WobblynessLevel=1
 BlurStrength=6
 NoiseStrength=2
 
-[Effect-diminactive]
-DimKeepAbove=true
-Strength=12
-
 [Effect-presentwindows]
 BorderActivateAll=9
 
 [Effect-wobblywindows]
+BlurStrength=6
 Drag=85
+NoiseStrength=2
 Stiffness=10
 WobblynessLevel=1
 
@@ -41,14 +37,11 @@ WobblynessLevel=1
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
 [Plugins]
-alwaysopenonfocusedscreenEnabled=true
 autocomposerEnabled=true
 blurEnabled=true
 contrastEnabled=true
 desktopchangeosdEnabled=false
-desktopgridEnabled=true
-diminactiveEnabled=true
-force-decorations-gtk3Enabled=true
+force-decorations-gtk3Enabled=false
 forceblurEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_fadedesktopEnabled=true
@@ -56,20 +49,18 @@ kwin4_effect_frozenappEnabled=false
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_morphingpopupsEnabled=false
 kwin4_effect_rubberband_maximizeEnabled=true
-kwin4_effect_sessionquitEnabled=false
+kwin4_effect_slidingnotificationsEnabled=true
 macsimizeEnabled=false
 minimizeallEnabled=true
 movewindowtocenterEnabled=true
 opacitymenuEnabled=true
 overviewEnabled=true
-presentwindowsEnabled=true
-screenSnapping5Enabled=true
 screenedgeEnabled=false
+screenSnapping5Enabled=true
 sheetEnabled=true
 slideEnabled=false
 slidebackEnabled=true
 synchronizeskipswitcherEnabled=false
-thumbnailasideEnabled=true
 videowallEnabled=false
 wobblywindowsEnabled=true
 
@@ -80,6 +71,9 @@ patterns=dolphin\nyakuake\nurxvt\nkeepassxc\nkonsole\nthunar
 [TabBox]
 BorderActivate=9
 LayoutName=coverswitch
+
+[TabBoxAlternative]
+LayoutName=flipswitch
 
 [Windows]
 Placement=Centered

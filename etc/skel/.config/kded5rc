@@ -2,16 +2,13 @@
 autoload=true
 
 [Module-baloosearchmodule]
-autoload=true
+autoload=false
 
 [Module-bluedevil]
 autoload=true
 
 [Module-browserintegrationreminder]
 autoload=false
-
-[Module-colorcorrectlocationupdater]
-autoload=true
 
 [Module-device_automounter]
 autoload=false
@@ -53,6 +50,9 @@ autoload=true
 autoload=true
 
 [Module-networkstatus]
+autoload=true
+
+[Module-plasma_accentcolor_service]
 autoload=true
 
 [Module-plasmavault]

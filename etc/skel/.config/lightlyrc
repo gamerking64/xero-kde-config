@@ -1,6 +1,3 @@
-[Common]
-CornerRadius=8
-
 [Style]
-DolphinSidebarOpacity=30
-MenuOpacity=40
+DolphinSidebarOpacity=50
+MenuOpacity=70

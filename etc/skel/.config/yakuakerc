@@ -1,21 +1,17 @@
 [Appearance]
 BackgroundColorOpacity=60
 HideSkinBorders=true
-Skin=ROUNDED-DARK
+Skin=arc-dark
 SkinInstalledWithKns=true
 Translucency=true
 
 [Desktop Entry]
-DefaultProfile=XeroLinux.profile
+DefaultProfile=
 
 [Dialogs]
 FirstRun=false
 
-[KFileDialog Settings]
-iconViewIconSize=64
-
 [Window]
-Height=46
 KeepOpen=false
 ShowTabBar=false
 Width=70
