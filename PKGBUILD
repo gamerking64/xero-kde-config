@@ -8,7 +8,6 @@ arch=('any')
 url="https://github.com/XeroLinux"
 license=('GPL3')
 makedepends=('git')
-#replaces=('xerolinux-rice' 'kde-rice' 'kde-rice')
 conflicts=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
