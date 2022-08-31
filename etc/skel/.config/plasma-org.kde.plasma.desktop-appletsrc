@@ -33,7 +33,7 @@ ToolBoxButtonY=54
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Xero-Plasma69.png
-SlidePaths=/usr/share/defaultbg,$HOME/.local/share/wallpapers/
+SlidePaths=/usr/share/wallpapers
 
 [Containments][2]
 ItemGeometries-1920x1080=
@@ -59,7 +59,7 @@ ToolBoxButtonX=256
 
 [Containments][2][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Xero-Plasma69.png
-SlidePaths=/usr/share/defaultbg,$HOME/.local/share/wallpapers/
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][3]
 ItemGeometries-1920x1080=
@@ -85,7 +85,7 @@ ToolBoxButtonX=256
 
 [Containments][3][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Xero-Plasma69.png
-SlidePaths=/usr/share/defaultbg,$HOME/.local/share/wallpapers/
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][4]
 activityId=
